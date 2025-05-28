@@ -1,0 +1,342 @@
+selector{
+transition-property: value;    
+}
+body{
+ font-family:Arial,sans-serif;
+ color:#333 ;
+ background-color:#f9f9f9 ;
+ margin: 0;
+ padding: 0;
+ line-height:1.6 ;
+ background-image:url(images/download\ \(1\).jpeg);
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+
+}
+header{
+background-color:#6f4e37 ;
+color:white;
+padding: 20px;
+}
+nav ul{
+list-style-type: none;
+padding: 0;
+}
+nav ul li{
+display: inline;
+margin: 10px;
+}
+nav ul li a{
+color: white;
+text-decoration: none;
+padding: 5px 20px;
+border: 1px solid transparent;
+transition: 0.5 ease;
+font-size: 18px;
+}
+nav ul a:hover{
+background-color: white;
+color: black;
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+
+}
+header h1{
+ margin: 0;   
+}
+nav a{
+color: white;
+text-decoration:none ;
+margin: 0 10px;
+}
+nav a:hover{
+text-decoration: underline;
+}
+main{
+padding: 20px;
+max-width: 800px;
+margin: 20px;
+}
+.logo{
+color: black;
+font-size: 40px;
+font-family: Arial;
+padding-left: 20px;
+float: left;
+padding-top: 10px;
+}
+.main:dessert-container{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    padding: 20px;
+}
+.title{
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(50%-50%);
+}
+.title h3{
+    color: white;
+    font-size: 70px;
+}
+.button{
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(50%-50%);
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    color: #fff;
+    transition: 0.5 ease;
+    font: size 18px;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+main image{
+width: 100%;
+display: block;
+margin: 20px 0;
+}
+footer{
+background-color: #333;
+color: white;
+text-align: center;
+padding: 10px;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+p{
+    font-size: 1.1em;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+img{
+    border: 5px solid black;
+    border-radius: 10px;
+}
+main a[href^="mailto:"]{
+    color: #ff5722;
+    font-weight: bold
+}
+.menu-page {
+    padding: 2em;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .menu-page h1 {
+    text-align: center;
+    margin-bottom: 1.5em;
+  }
+  
+  .menu-section {
+    margin-bottom: 2em;
+  }
+  
+  .menu-section h2 {
+    color: #6f4e37;
+    border-bottom: 2px solid #d2b48c;
+    padding-bottom: 0.5em;
+  }
+  
+  .menu-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .menu-list li {
+    margin: 0.5em 0;
+    font-size: 1.1em;
+    display: flex;
+    justify-content: space-between;
+  }
+  .floating-home-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #6f4e37;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 0.6em 0.8em;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .floating-home-button:hover {
+    background-color: #5c3f2d;
+    transform: scale(1.1);
+  }
+  .promo-banner {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .promo-banner::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 1;
+  }
+  
+  .promo-banner-text {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .promo-banner-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .specials, .delivery, .follow-promo {
+    padding: 2em;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .deal-card {
+    background-color: #fff6ed;
+    border-left: 6px solid #6f4e37;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  .delivery-options {
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.1em;
+    line-height: 1.8;
+  }
+  
+  .delivery-hours {
+    margin-top: 1em;
+    font-weight: bold;
+  }
+  
+  .follow-promo {
+    background-color: #ffe9c4;
+    padding: 1.5em;
+    border-radius: 6px;
+    margin-top: 2em;
+    font-weight: bold;
+  }
+  .home-page .hero {
+  background-image: url('../images/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  text-align: center;
+  color: white;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #d2b48c;
+  color: #333;
+  padding: 1em 2em;
+  margin-top: 1em;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #c49b6e;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2em;
+  background-color: #fff6ed;
+}
+
+.feature {
+  flex: 1 1 250px;
+  max-width: 300px;
+  margin: 1em;
+  text-align: center;
+}
+/* Floating Home Button */
+.floating-home-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #6f4e37;
+  color: #fff;
+  font-size: 1.5em;
+  padding: 0.6em 0.8em;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.floating-home-button:hover {
+  background-color: #5c3f2d;
+  transform: scale(1.1);
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu - Patrulla Café</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #2b2b2b;
+      color: #f5f5dc;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .navbar {
+      background-color: #6f4e37;
+    }
+    .navbar a {
+      color: white;
+    }
+    .footer {
+      background-color: #6f4e37;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+    .floating-home-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #6f4e37;
+      color: white;
+      font-size: 1.5em;
+      padding: 0.6em 0.8em;
+      border-radius: 50%;
+      text-decoration: none;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      z-index: 999;
+    }
+    .menu-item img {
+      border-radius: 10px;
+      height: 180px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand text-white" href="index.html">Patrulla Café</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="menu.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="dessert.html">Desserts</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="promotions.html">Promos</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="review.html">Review</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container py-5">
+    <h1 class="text-center mb-5">Our Signature Menu</h1>
+
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card bg-light text-dark">
+          <img src="images/latte.jpeg" class="card-img-top" alt="Latte">
+          <div class="card-body">
+            <h5 class="card-title">Latte</h5>
+            <p class="card-text">P25 • Creamy & smooth, served hot or iced</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card bg-light text-dark">
+          <img src="images/cappucino.jpeg" class="card-img-top" alt="Cappuccino">
+          <div class="card-body">
+            <h5 class="card-title">Cappuccino</h5>
+            <p class="card-text">P25 • Rich espresso with foamed milk</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card bg-light text-dark">
+          <img src="images/iced coffe.jpeg" class="card-img-top" alt="Iced Coffee">
+          <div class="card-body">
+            <h5 class="card-title">Iced Coffee</h5>
+            <p class="card-text">P22 • Refreshing and bold, served cold</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card bg-light text-dark">
+          <img src="images/croissant.jpeg" class="card-img-top" alt="Croissant">
+          <div class="card-body">
+            <h5 class="card-title">Butter Croissant</h5>
+            <p class="card-text">P15 • Flaky, buttery, baked daily</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card bg-light text-dark">
+          <img src="images/muffins.jpeg" class="card-img-top" alt="Muffin">
+          <div class="card-body">
+            <h5 class="card-title">Chocolate Muffin</h5>
+            <p class="card-text">P12 • Moist and fresh</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card bg-light text-dark">
+          <img src="images/ccokies and creame brownie.jpeg" class="card-img-top" alt="Brownie">
+          <div class="card-body">
+            <h5 class="card-title">Chocolate creamy Oreo Brownie</h5>
+            <p class="card-text">P14 • Oreo center with crispy edges</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <a href="index.html" class="floating-home-button" title="Back to Home">🏠</a>
+
+  <footer class="footer">
+    <p>&copy; 2025 Patrulla Café. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

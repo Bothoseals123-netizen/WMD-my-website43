@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery - Patrulla Café</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #2b2b2b;
+      color: #f5f5dc;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .navbar {
+      background-color: #6f4e37;
+    }
+    .navbar a {
+      color: white;
+    }
+    .footer {
+      background-color: #6f4e37;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+    .floating-home-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #6f4e37;
+      color: white;
+      font-size: 1.5em;
+      padding: 0.6em 0.8em;
+      border-radius: 50%;
+      text-decoration: none;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      z-index: 999;
+    }
+    .gallery-img {
+      border-radius: 10px;
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand text-white" href="index.html">Patrulla Café</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="menu.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="dessert.html">Dessert</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="promotions.html">Promos</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="review.html">Review</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container py-5">
+    <h1 class="text-center mb-5">Gallery</h1>
+
+    <div class="row g-4">
+      <div class="col-md-4">
+        <img src="images/cafe interior.jpeg" class="gallery-img" alt="Café Interior">
+      </div>
+      <div class="col-md-4">
+        <img src="images/lounge area.jpeg" class="gallery-img" alt="lounge area">
+      </div>
+      <div class="col-md-4">
+        <img src="images/pastry.jpeg" class="gallery-img" alt="Dessert Display">
+      </div>
+      <div class="col-md-4">
+        <img src="images/latte.jpeg" class="gallery-img" alt="Latte Art">
+      </div>
+  </main>
+
+  <a href="index.html" class="floating-home-button" title="Back to Home">🏠</a>
+
+  <footer class="footer">
+    <p>&copy; 2025 Patrulla Café. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
